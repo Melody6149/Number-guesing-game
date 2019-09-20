@@ -38,9 +38,9 @@ namespace Number_guesing_game
                   choice = Console.ReadLine();
                     if (choice == "1" || choice == "2" || choice == "3")
                     {
-                        validchoice = true;
+                        validchoice = true; //tells game the choice is valid 
                     }
-                    else if (!validchoice)
+                    else if (!validchoice) // used to know if the choice is valid
                     {
                         Console.WriteLine("please pick a valid choice");
                     }
