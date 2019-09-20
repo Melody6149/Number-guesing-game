@@ -18,9 +18,8 @@ Create a number guesing game
 - The 1, 2, and 3 keys are used to tell the game the option you picked
 
 3.  Output Information
+The game will show a new number that is bigger or smaller depending on which option you pick. if you say it is your number
 
-
-4. User INterFace Information
 
 
 
@@ -35,3 +34,31 @@ Once the player presses a key
 the game enters a loop untill until the game says the player is cheating or untill the player says it is their number
 The player tells the game if it is their number or if ther number is higher or lower
 
+
+
+3. ### Object Information
+
+Name: guess
+this is a int used to tell player how many guess it takes for the game to find out the number
+
+Name: Computerchoice
+
+this is a int used for the computers guess
+
+Name: maxnumber
+
+this is used for for the game to know what the max number is. the max number is 1 less than what this int is.
+
+Name: minnumber
+this is used to set the lowest number the computer can guess
+
+Name: validchoice
+
+a bool used to tell game when to end the loop
+
+Name:choice
+
+the string is used so the game knows what number you typed in
+
+Name: validchoice
+bool usede to tell game if the choice is valid
